@@ -2,97 +2,97 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19120",
 "files": {
-	"\/cliveua.com\/css\/colors.css": {
+	"\/css\/colors.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/cliveua.com\/css\/colors.css",
+		"inputAbbreviatedPath": "\/css\/colors.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/cliveua.com\/css\/main.css": {
+	"\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/cliveua.com\/css\/main.css",
+		"inputAbbreviatedPath": "\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/cliveua.com\/img\/500shops.png": {
+	"\/img\/500shops.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 7424,
-		"inputAbbreviatedPath": "\/cliveua.com\/img\/500shops.png",
-		"outputAbbreviatedPath": "\/cliveua.com\/img\/500shops.png",
+		"inputAbbreviatedPath": "\/img\/500shops.png",
+		"outputAbbreviatedPath": "\/img\/500shops.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/cliveua.com\/img\/avatar.jpeg": {
+	"\/img\/avatar.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 18820,
-		"inputAbbreviatedPath": "\/cliveua.com\/img\/avatar.jpeg",
-		"outputAbbreviatedPath": "\/cliveua.com\/img\/avatar.jpeg",
+		"inputAbbreviatedPath": "\/img\/avatar.jpeg",
+		"outputAbbreviatedPath": "\/img\/avatar.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/cliveua.com\/img\/gomyway.png": {
+	"\/img\/gomyway.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 8966,
-		"inputAbbreviatedPath": "\/cliveua.com\/img\/gomyway.png",
-		"outputAbbreviatedPath": "\/cliveua.com\/img\/gomyway.png",
+		"inputAbbreviatedPath": "\/img\/gomyway.png",
+		"outputAbbreviatedPath": "\/img\/gomyway.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/cliveua.com\/img\/kongaez.png": {
+	"\/img\/kongaez.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 16180,
-		"inputAbbreviatedPath": "\/cliveua.com\/img\/kongaez.png",
-		"outputAbbreviatedPath": "\/cliveua.com\/img\/kongaez.png",
+		"inputAbbreviatedPath": "\/img\/kongaez.png",
+		"outputAbbreviatedPath": "\/img\/kongaez.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/cliveua.com\/img\/npower.png": {
+	"\/img\/npower.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 20237,
-		"inputAbbreviatedPath": "\/cliveua.com\/img\/npower.png",
-		"outputAbbreviatedPath": "\/cliveua.com\/img\/npower.png",
+		"inputAbbreviatedPath": "\/img\/npower.png",
+		"outputAbbreviatedPath": "\/img\/npower.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/cliveua.com\/index.html": {
+	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/cliveua.com\/index.html",
+		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/cliveua.com\/scss\/colors.scss": {
+	"\/scss\/colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/cliveua.com\/scss\/colors.scss",
-		"outputAbbreviatedPath": "\/cliveua.com\/css\/colors.css",
+		"inputAbbreviatedPath": "\/scss\/colors.scss",
+		"outputAbbreviatedPath": "\/css\/colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -100,15 +100,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/cliveua.com\/scss\/main.scss": {
+	"\/scss\/main.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/cliveua.com\/scss\/main.scss",
-		"outputAbbreviatedPath": "\/cliveua.com\/css\/main.css",
+		"inputAbbreviatedPath": "\/scss\/main.scss",
+		"outputAbbreviatedPath": "\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -116,81 +116,21 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/cliveua.com\/scss\/reset.scss": {
+	"\/scss\/reset.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/cliveua.com\/scss\/reset.scss",
-		"outputAbbreviatedPath": "\/cliveua.com\/css\/reset.css",
+		"inputAbbreviatedPath": "\/scss\/reset.scss",
+		"outputAbbreviatedPath": "\/css\/reset.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/kongaezSplash\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kongaezSplash\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kongaezSplash\/images\/bg-texture.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2135,
-		"inputAbbreviatedPath": "\/kongaezSplash\/images\/bg-texture.png",
-		"outputAbbreviatedPath": "\/kongaezSplash\/images\/bg-texture.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/kongaezSplash\/images\/icons\/icon-152x152.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3626,
-		"inputAbbreviatedPath": "\/kongaezSplash\/images\/icons\/icon-152x152.png",
-		"outputAbbreviatedPath": "\/kongaezSplash\/images\/icons\/icon-152x152.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/kongaezSplash\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kongaezSplash\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kongaezSplash\/less\/style.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kongaezSplash\/less\/style.less",
-		"outputAbbreviatedPath": "\/kongaezSplash\/css\/style.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
 		}
 	},
 "hooks": [
@@ -200,9 +140,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "cliveua.github.io",
+	"displayValue": "cliveua.com",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "globe_gray"
+	"iconImageName": "globe_brown"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
@@ -836,7 +776,7 @@
 	"typescriptJSXMode": 0,
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleResolutionType": 0,
-	"typescriptModuleType": 0,
+	"typescriptModuleType": 2,
 	"typescriptNoImplicitAny": 0,
 	"typescriptPreserveConstEnums": 0,
 	"typescriptRemoveComments": 0,
