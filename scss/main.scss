@@ -205,3 +205,67 @@ html, body {
         }
     }
 }
+
+/* ==========================================================================
+   Mobile
+   ========================================================================== */
+@media (max-width: 600px) {
+    .container {
+        width: auto;
+        padding: 0 3rem;
+    }
+
+    .header {
+        margin-top: 13rem;
+        font-size: 4rem;
+
+        &:before {
+            top: 4rem;
+            left: 3rem;
+            width: 6rem;
+            height: 6rem;
+        }
+    }
+
+    .blurb {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    .project {
+        flex-flow: column wrap; 
+    }
+
+    .project__thumbnail {
+        flex: 1 0 100%;
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .project__thumbnail--overlay {
+        display: none;
+    }
+
+    .footer__contact {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .footer__menu {
+        ul {
+            display: flex;
+            flex-flow: row wrap;
+            text-align: center;
+        }
+
+        li {
+            width: 50%;
+            margin: 0;
+            margin-top: 1.5rem;
+        }
+
+        li:before {
+            display: none;
+        }
+    }
+}
