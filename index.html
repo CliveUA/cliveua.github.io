@@ -138,8 +138,8 @@
 
             rootEl.style.setProperty('background-color', pageTheme);
             
-            for (elem of projectOverlay)
-                elem.style.setProperty('background-color', pageTheme);
+            for (let i = 0; i < projectOverlay.length; i++)
+                projectOverlay[i].style.setProperty('background-color', pageTheme);
         }
 
         setPageTheme();
