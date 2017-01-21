@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Bootstrap 101 Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,600">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class="container">
+        <h1 class="header header--avatar">Hi, my name is Clive.</h1>
+
+        <p class="blurb blurb--line-1">I’m a <strong>UX Designer</strong>, which 
+            means I spend most of my time designing experiences that help make 
+            the lives of human beings a little easier.</p>
+        
+        <p class="blurb blurb--line-2">Here are some <strong>projects I’ve 
+            worked on:</strong></p>
+
+        <section class="projects">
+            <a href="#" class="project">
+                <figure class="project__thumbnail project__thumbnail--kongaez">
+                    <span class="project__thumbnail--overlay"></span>
+                </figure>
+                
+                <div class="project__description">
+                    <h2>KongaEZ</h2>
+                    <p>A Progressive Web App designed to provide Konga's mobile customers
+                        the benefits of its shopping app including performance, the ability to work offline, 
+                        and re-engagement without the data cost.</p>
+                </div>
+            </a>
+
+            <a href="#" class="project">
+                <figure class="project__thumbnail project__thumbnail--gomyway">
+                    <span class="project__thumbnail--overlay"></span>
+                </figure>
+                
+                <div class="project__description">
+                    <h2>GoMyWay</h2>
+                    <p>A platform that connects anyone with drivers who have spare seats to share. 
+                        Travelers can easily share a safe pocket-friendly ride with drivers going 
+                        their way.</p>
+                </div>
+            </a>
+
+            <a href="#" class="project">
+                <figure class="project__thumbnail project__thumbnail--npower">
+                    <span class="project__thumbnail--overlay"></span>
+                </figure>
+                
+                <div class="project__description">
+                    <h2>nPower</h2>
+                    <p>A programme designed by the Nigerian Government to 
+                        drastically reduce youth unemployment. The focus is to provide 
+                        young citizens with the skills to enable them advance to 
+                        entrepreneurship.</p>
+                </div>
+            </a>
+
+            <a href="#" class="project">
+                <figure class="project__thumbnail project__thumbnail--500shops">
+                    <span class="project__thumbnail--overlay"></span>
+                </figure>
+                
+                <div class="project__description">
+                    <h2>500Shops</h2>
+                    <p>A platform that allows any business owner to setup a complete 
+                        online store. It also provides tools to easily manage inventory, receive 
+                        &amp; process customer orders and accept payments.</p>
+                </div>
+            </a>
+        </section>
+
+        <footer class="footer">
+            <p class="footer__contact">Got any questions or comments for me? 
+                <a href="mailto:cliveua@gmail.com">Send me an email.</a></p>
+            
+            <nav class="footer__menu">
+                <ul>
+                    <li><a href="http://twitter.com/cliveua" target="_blank">Twitter</a></li>
+                    <li><a href="http://linkedin.com/in/cliveua" target="_blank">LinkedIn</a></li>
+                    <li><a href="http://dribbble.com/clive" target="_blank">Dribbble</a></li>
+                    <li><a href="http://instagram.com/cliv.e" target="_blank">Instagram</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+
+    <script type="text/javascript">
+        // Themes
+        const backgroundColors = {
+            blue: "rgb(28, 42, 244)",
+            purple: "rgb(54, 64, 197)",
+            orange: "rgb(224, 67, 31)",
+            darkgreen: "rgb(11, 97, 78)",
+            lightblue: "rgb(2, 111, 219)"
+        }
+
+        // Gets a random theme from the list of themes
+        const getPageTheme = () =>
+            backgroundColors[
+                Object.keys(backgroundColors)[Math.floor(
+                    Math.random() * Object.keys(backgroundColors).length )]
+            ];
+        
+        // Sets the theme of the site
+        const setPageTheme = () => {
+            const rootEl = document.documentElement;
+            const projectOverlay = 
+                document.getElementsByClassName('project__thumbnail--overlay');
+            
+            const pageTheme = getPageTheme();
+
+            rootEl.style.setProperty('background-color', pageTheme);
+            
+            for (elem of projectOverlay)
+                elem.style.setProperty('background-color', pageTheme);
+        }
+
+        setPageTheme();
+
+    </script>
+
+  </body>
+</html>
