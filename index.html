@@ -148,10 +148,22 @@
             
             const pageTheme = getPageTheme();
 
+            // set page background theme
             rootEl.style.setProperty('background-color', pageTheme);
-            
-            for (let i = 0; i < projectOverlay.length; i++)
-                projectOverlay[i].style.setProperty('background-color', pageTheme);
+
+            // sets a project overlay background theme
+            const setProjectOverlayTheme = (project, theme) =>
+                project.style.setProperty('background-color', theme);
+
+            // sets all project overlay background theme
+            const setProjectsOverlayTheme = (theme, remainingProjects) => (
+                remainingProjects === -1 
+                    ? void 0
+                    : ( setProjectOverlayTheme(projectOverlay[remainingProjects], theme),
+                        setProjectsOverlayTheme(theme, remainingProjects - 1) )
+            )
+
+            setProjectsOverlayTheme(pageTheme, projectOverlay.length - 1);
         }
 
         setPageTheme();
