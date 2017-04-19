@@ -53,6 +53,7 @@ html, body {
         border: .4rem solid $avatar-border;
         background: url(../img/avatar.jpeg) no-repeat center center;
         background-size: cover;
+        box-shadow: 0 15px 35px rgba(0,0,0,.1), 0 3px 10px rgba(0,0,0,.07);
     }
 }
 
