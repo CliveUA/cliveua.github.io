@@ -39,12 +39,14 @@ html, body {
 
 .header {
     margin-top: 10rem;
-    font-size: 5rem;
-    font-weight: 600;
 
-    &:before {
+    h1 {
+        font-size: 5rem;
+        font-weight: 600;
+    }
+
+    .header__avatar {
         position: absolute;
-        content: '';
         left: -10rem;
         top: 7rem;
         width: 10rem;
@@ -54,6 +56,49 @@ html, body {
         background: url(../img/avatar.jpeg) no-repeat center center;
         background-size: cover;
         box-shadow: 0 15px 35px rgba(0,0,0,.1), 0 3px 10px rgba(0,0,0,.07);
+
+        .social__accounts {
+            padding-top: 11.5rem;
+            li {
+                margin-bottom: .8rem;
+                opacity: 0;
+                transform: scale(.8);
+                -webkit-transition: all 0.25s ease-out;
+                transition: all 0.25s ease-out;
+                
+                a {
+                    display: block;
+                    margin: 0 auto;
+                    width: 4.5rem;
+                    height: 4.5rem;
+                    border-radius: 4.5rem;
+                    text-align: center;
+                    background-color: $color-white;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: 2.8rem;
+                    box-shadow: 0 15px 35px rgba(0,0,0,.1), 0 3px 10px rgba(0,0,0,.07);
+                }
+                
+                &.social__accounts--twitter a {background-image: url("../img/twitter.svg")}
+                &.social__accounts--instagram a {background-image: url("../img/instagram.svg")}
+                &.social__accounts--linkedin a {background-image: url("../img/linkedin.svg")}
+                &.social__accounts--dribbble a {background-image: url("../img/dribbble.svg")}
+
+                &.social__accounts--twitter {transition-delay: .04s}
+                &.social__accounts--instagram {transition-delay: .08s}
+                &.social__accounts--linkedin {transition-delay: .12s}
+                &.social__accounts--dribbble {transition-delay: .16s}
+            }
+        }
+
+        &:hover {
+            .social__accounts li {
+                opacity: 1;
+                transform: scale(1);
+                margin-bottom: 1.5rem;
+            }
+        }
     }
 }
 
@@ -216,9 +261,11 @@ html, body {
     .header {
         margin-top: 19rem;
 
-        &:before {
+        .header__avatar {
             top: 5rem;
             left: 6rem;
+
+            .social__accounts {display: none}
         }
     }
 }
@@ -239,11 +286,13 @@ html, body {
         margin-top: 13rem;
         font-size: 4rem;
 
-        &:before {
+        .header__avatar {
             top: 4rem;
             left: 3rem;
             width: 6rem;
             height: 6rem;
+
+            .social__accounts {display: none}
         }
     }
 
