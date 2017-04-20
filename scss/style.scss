@@ -24,6 +24,30 @@ html, body {
   box-sizing: border-box;
 }
 
+@keyframes floating {
+  from {
+    -webkit-transform: translate(0, 60px);
+    transform: translate(0, 60px);
+    opacity: 0.6;
+  }
+  to {
+    -webkit-transform: translate(0, -0px);
+    transform: translate(0, -0px);
+    opacity: 1;
+  }
+}
+
+.header__avatar {
+  -webkit-animation-name: floating;
+  animation-name: floating;
+  -webkit-animation-duration: 1.1s;
+  animation-duration: 1.1s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+
 
 /* ==========================================================================
    Header
