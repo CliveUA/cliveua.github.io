@@ -126,6 +126,11 @@ html, body {
                 opacity: 1;
                 transform: scale(1);
                 margin-bottom: 1.5rem;
+
+                &:hover {
+                    transform: scale(0.9);
+                    transition: all 0.15s ease-out;
+                }
             }
         }
     }
