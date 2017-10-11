@@ -142,7 +142,7 @@
     </div>
 
     <script type="text/javascript">
-        // Themes
+        // List of themes
         const backgroundColors = {
             blue: "rgb(28, 42, 244)",
             purple: "rgb(54, 64, 197)",
@@ -156,8 +156,9 @@
         // Gets a random theme from the list of themes
         const getPageTheme = () =>
             backgroundColors[
-                Object.keys(backgroundColors)[Math.floor(
-                    Math.random() * Object.keys(backgroundColors).length )]
+                Object.keys( backgroundColors )[
+                    Math.floor( Math.random() * Object.keys( backgroundColors ).length )
+                ]
             ];
         
         // Sets the theme of the site
