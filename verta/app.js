@@ -19,6 +19,7 @@
     app.init = () => {
 
         app.fetchCurrencies().then(app.convertTo);
+        fromAmount.focus();
     }
 
     // getters and setters for the from and to amounts
